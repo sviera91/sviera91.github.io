@@ -273,23 +273,19 @@ img { max-width: 100%; display: block; }
   padding: 1.5rem 1.75rem 2rem;
 }
 
-.hero-intro {
+.hero-name-row {
   display: flex;
-  align-items: flex-start;
-  gap: 1.25rem;
-}
-
-.hero-copy {
-  flex: 1;
-  min-width: 0;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0.2rem 0 0.8rem;
 }
 
 .hero-avatar {
-  width: 150px;
+  width: clamp(56px, 7.2vw, 86px);
   aspect-ratio: 1 / 1;
   flex-shrink: 0;
-  margin: 0.2rem 0 0;
-  padding: 4px;
+  margin: 0;
+  padding: 3px;
   border-radius: 50%;
   background: linear-gradient(135deg, rgba(0, 229, 255, 0.95), rgba(255, 110, 199, 0.9));
   box-shadow:
@@ -307,6 +303,11 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
   border: 2px solid rgba(10, 10, 26, 0.8);
   filter: saturate(1.04) contrast(1.03);
+}
+
+.hero-name {
+  margin: 0;
+  line-height: 0.94;
 }
 
 @keyframes avatarPulse {
@@ -942,14 +943,8 @@ h1.glitch::after {
 
   #hero { padding-top: 80px; }
 
-  .hero-intro {
-    flex-direction: column;
-    gap: 0.9rem;
-  }
-
   .hero-avatar {
-    width: 112px;
-    margin-top: 0;
+    width: 62px;
   }
 
   .section { padding: 4rem 1.25rem; }
@@ -977,5 +972,6 @@ h1.glitch::after {
   h1.glitch { font-size: 2.5rem; }
   .section-title { font-size: 1.8rem; }
   .terminal-body { padding: 1rem 1.25rem 1.5rem; }
-  .hero-avatar { width: 94px; }
+  .hero-name-row { gap: 0.55rem; }
+  .hero-avatar { width: 46px; }
 }
