@@ -276,12 +276,13 @@ img { max-width: 100%; display: block; }
 .hero-name-row {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 0.8rem;
   margin: 0.2rem 0 0.8rem;
 }
 
 .hero-avatar {
-  width: clamp(56px, 7.2vw, 86px);
+  width: clamp(52px, 0.96em + 2.9vw, 84px);
   aspect-ratio: 1 / 1;
   flex-shrink: 0;
   margin: 0;
@@ -307,7 +308,13 @@ img { max-width: 100%; display: block; }
 
 .hero-name {
   margin: 0;
-  line-height: 0.94;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.hero-name .glitch {
+  display: inline-block;
+  margin: 0;
 }
 
 @keyframes avatarPulse {
@@ -338,18 +345,17 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-mono);
 }
 
-h1.glitch {
+.hero-name .glitch {
   font-family: var(--font-display);
   font-size: clamp(3rem, 9vw, 5.5rem);
   color: var(--white);
   text-shadow: var(--glow-text);
   letter-spacing: 3px;
   line-height: 1;
-  margin: 0.3rem 0 0.8rem;
   position: relative;
 }
-h1.glitch::before,
-h1.glitch::after {
+.hero-name .glitch::before,
+.hero-name .glitch::after {
   content: attr(data-text);
   position: absolute;
   inset: 0;
@@ -357,13 +363,13 @@ h1.glitch::after {
   font-size: inherit;
   letter-spacing: inherit;
 }
-h1.glitch::before {
+.hero-name .glitch::before {
   color: var(--pink);
   clip-path: polygon(0 30%, 100% 30%, 100% 50%, 0 50%);
   animation: glitch-before 4s infinite;
   text-shadow: -2px 0 var(--pink);
 }
-h1.glitch::after {
+.hero-name .glitch::after {
   color: var(--cyan);
   clip-path: polygon(0 65%, 100% 65%, 100% 80%, 0 80%);
   animation: glitch-after 4s infinite;
@@ -944,7 +950,7 @@ h1.glitch::after {
   #hero { padding-top: 80px; }
 
   .hero-avatar {
-    width: 62px;
+    width: 54px;
   }
 
   .section { padding: 4rem 1.25rem; }
@@ -969,9 +975,9 @@ h1.glitch::after {
 }
 
 @media (max-width: 480px) {
-  h1.glitch { font-size: 2.5rem; }
+  .hero-name .glitch { font-size: 2.5rem; }
   .section-title { font-size: 1.8rem; }
   .terminal-body { padding: 1rem 1.25rem 1.5rem; }
   .hero-name-row { gap: 0.55rem; }
-  .hero-avatar { width: 46px; }
+  .hero-avatar { width: 42px; }
 }
