@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=VT323&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👾</text></svg>" />
 </head>
 <body>
 
@@ -45,27 +46,27 @@
       <!-- GIF ZONE: drop a chill city pop / lofi anime GIF here -->
       <!-- <img class="hero-gif" src="YOUR_GIF_URL_HERE" alt="city pop vibes" /> -->
 
-      <div class="terminal-window">
-        <div class="terminal-titlebar">
-          <span class="dot dot-red"></span>
-          <span class="dot dot-yellow"></span>
-          <span class="dot dot-green"></span>
-          <span class="terminal-title">stewart@github ~ </span>
-        </div>
-        <div class="terminal-body">
-          <p class="terminal-line"><span class="prompt">$</span> whoami</p>
-          <div class="hero-name-row">
-            <figure class="hero-avatar" aria-hidden="true">
-              <img src="assets/profile.jpg" alt="" loading="eager" decoding="async" />
-            </figure>
+      <div class="terminal-wrap">
+        <div class="terminal-window">
+          <div class="terminal-titlebar">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span class="terminal-title">stewart@github ~ </span>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-line"><span class="prompt">$</span> whoami</p>
             <h1 class="hero-name">
               <span class="glitch" data-text="Stewart Viera">Stewart Viera</span>
             </h1>
+            <p class="terminal-line terminal-role"><span class="prompt">$</span> cat role.txt</p>
+            <p class="terminal-output">Senior Technical Partner Manager <span class="cyan">@GitHub</span> · LATAM</p>
+            <p class="terminal-line"><span class="prompt">$</span> <span id="typewriter"></span><span class="cursor blink">█</span></p>
           </div>
-          <p class="terminal-line terminal-role"><span class="prompt">$</span> cat role.txt</p>
-          <p class="terminal-output">Senior Technical Partner Manager <span class="cyan">@GitHub</span> · LATAM</p>
-          <p class="terminal-line"><span class="prompt">$</span> <span id="typewriter"></span><span class="cursor blink">█</span></p>
         </div>
+        <figure class="hero-avatar" aria-label="Stewart Viera profile photo">
+          <img src="assets/profile.jpg" alt="Stewart Viera" loading="eager" decoding="async" />
+        </figure>
       </div>
 
       <div class="hero-meta">

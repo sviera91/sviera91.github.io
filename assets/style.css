@@ -273,27 +273,33 @@ img { max-width: 100%; display: block; }
   padding: 1.5rem 1.75rem 2rem;
 }
 
-.hero-name-row {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 0.8rem;
-  margin: 0.2rem 0 0.8rem;
+/* Terminal wrap — provides the relative context for the stamp avatar */
+.terminal-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.hero-name {
+  margin: 0.25rem 0 0.9rem;
+  line-height: 1;
 }
 
 .hero-avatar {
-  width: clamp(52px, 0.96em + 2.9vw, 84px);
+  position: absolute;
+  top: -22px;
+  right: -22px;
+  width: 110px;
   aspect-ratio: 1 / 1;
-  flex-shrink: 0;
   margin: 0;
   padding: 3px;
   border-radius: 50%;
   background: linear-gradient(135deg, rgba(0, 229, 255, 0.95), rgba(255, 110, 199, 0.9));
   box-shadow:
     0 0 0 1px rgba(0, 229, 255, 0.45),
-    0 0 18px rgba(0, 229, 255, 0.55),
-    0 0 34px rgba(255, 110, 199, 0.35);
+    0 0 22px rgba(0, 229, 255, 0.65),
+    0 0 40px rgba(255, 110, 199, 0.40);
   animation: avatarPulse 6s ease-in-out infinite;
+  z-index: 2;
 }
 
 .hero-avatar img {
@@ -304,12 +310,6 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
   border: 2px solid rgba(10, 10, 26, 0.8);
   filter: saturate(1.04) contrast(1.03);
-}
-
-.hero-name {
-  margin: 0;
-  line-height: 1;
-  white-space: nowrap;
 }
 
 .hero-name .glitch {
@@ -950,7 +950,9 @@ img { max-width: 100%; display: block; }
   #hero { padding-top: 80px; }
 
   .hero-avatar {
-    width: 54px;
+    width: 84px;
+    top: -16px;
+    right: -16px;
   }
 
   .section { padding: 4rem 1.25rem; }
@@ -978,6 +980,5 @@ img { max-width: 100%; display: block; }
   .hero-name .glitch { font-size: 2.5rem; }
   .section-title { font-size: 1.8rem; }
   .terminal-body { padding: 1rem 1.25rem 1.5rem; }
-  .hero-name-row { gap: 0.55rem; }
-  .hero-avatar { width: 42px; }
+  .hero-avatar { width: 70px; top: -12px; right: -10px; }
 }
