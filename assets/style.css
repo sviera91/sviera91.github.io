@@ -578,14 +578,22 @@ img { max-width: 100%; display: block; }
   align-items: center;
   gap: 0.75rem;
 }
-.company-logo {
-  font-size: 1.6rem;
-  line-height: 1;
+.company-logo-image {
+  width: 1.6rem;
+  height: 1.6rem;
+  flex: 0 0 1.6rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(0, 229, 255, 0.22));
 }
-.github-logo { color: var(--white); }
-.google-logo  { color: var(--cyan); }
-.msft-logo    { color: var(--purple); }
-.aws-logo     { color: var(--yellow); }
+.github-logo-image {
+  filter:
+    brightness(0) saturate(100%) invert(100%)
+    drop-shadow(0 0 8px rgba(0, 229, 255, 0.22));
+}
+.aws-logo-image {
+  width: 2rem;
+  flex-basis: 2rem;
+}
 
 .company-name {
   font-family: var(--font-mono);
@@ -901,6 +909,55 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-mono);
   font-size: 1.4rem;
   color: var(--cyan);
+}
+.github-contact-icon {
+  display: inline-flex;
+  align-items: center;
+}
+.github-contact-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  display: block;
+}
+.github-contact-icon path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.credly-contact-icon {
+  display: inline-flex;
+  align-items: center;
+}
+.credly-contact-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  display: block;
+}
+.credly-contact-icon path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.55;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.instagram-contact-icon {
+  display: inline-flex;
+  align-items: center;
+}
+.instagram-contact-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  display: block;
+}
+.instagram-contact-icon path,
+.instagram-contact-icon circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.55;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 .contact-label {
   font-family: var(--font-mono);

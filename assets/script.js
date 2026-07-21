@@ -171,7 +171,7 @@
         '#volunteering .volunteer-card:nth-of-type(4) p': 'Organized and participated in Google\'s NYC Pride events, championing LGBTQIA+ visibility in the workplace.',
         '#contact .section-title': '> contact --open',
         '#contact .contact-card:nth-of-type(1) .contact-label': 'Email',
-        '#footer .footer-output': 'Built with ❤️ & late-night vibes by Stewart Viera'
+        '#footer .footer-output': 'Always learning 🧠 · exploring new ideas 🧭 · meeting new people 🤝'
       },
       html: {
         '.terminal-line:nth-of-type(1)': '<span class="prompt">$</span> whoami',
@@ -203,7 +203,7 @@
         '#experience .timeline-item:nth-of-type(4) .card-bullets li:nth-child(3)': 'Held AWS DevOps Professional and Solutions Architect Associate certifications.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(1)': 'Delivered infrastructure modernization projects including Windows Server migrations, Active Directory, and early Azure IaaS deployments.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(2)': 'Supported enterprise customers across the US Northeast in data center to cloud transitions.',
-        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Built with ❤️ &amp; late-night vibes by Stewart Viera"'
+        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Always learning 🧠 · exploring new ideas 🧭 · meeting new people 🤝"'
       },
       attrs: [
         { selector: '#navToggle', name: 'aria-label', value: 'Toggle menu' },
@@ -265,7 +265,7 @@
         '#volunteering .volunteer-card:nth-of-type(4) p': 'Organicé y participé en eventos de Pride NYC en Google, impulsando la visibilidad LGBTQIA+ en el trabajo.',
         '#contact .section-title': '> contacto --abrir',
         '#contact .contact-card:nth-of-type(1) .contact-label': 'Correo',
-        '#footer .footer-output': 'Hecho con ❤️ y vibes nocturnos por Stewart Viera'
+        '#footer .footer-output': 'Siempre aprendiendo 🧠 · explorando nuevas ideas 🧭 · conociendo gente nueva 🤝'
       },
       html: {
         '.terminal-line:nth-of-type(1)': '<span class="prompt">$</span> quien_soy',
@@ -297,7 +297,7 @@
         '#experience .timeline-item:nth-of-type(4) .card-bullets li:nth-child(3)': 'Obtuve certificaciones AWS DevOps Professional y Solutions Architect Associate.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(1)': 'Entregué proyectos de modernización de infraestructura, incluyendo migraciones de Windows Server, Active Directory y despliegues iniciales de Azure IaaS.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(2)': 'Apoyé a clientes enterprise del noreste de EE. UU. en transiciones de data center a cloud.',
-        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Hecho con ❤️ &amp; vibes nocturnos por Stewart Viera"'
+        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Siempre aprendiendo 🧠 · explorando nuevas ideas 🧭 · conociendo gente nueva 🤝"'
       },
       attrs: [
         { selector: '#navToggle', name: 'aria-label', value: 'Abrir menú' },
