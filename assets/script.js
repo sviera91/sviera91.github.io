@@ -127,7 +127,7 @@
   const translations = {
     en: {
       title: 'Stewart Viera // Sr. Technical Partner Manager',
-      description: 'Stewart Viera — Senior Technical Partner Manager at GitHub, LATAM. 10+ years in cloud tech across GitHub, Google, Microsoft, and AWS.',
+      description: 'Stewart Viera — Senior Technical Partner Manager at GitHub, LATCAN. 10+ years in cloud tech across GitHub, Google, Microsoft, and AWS.',
       text: {
         '#navLinks li:nth-child(1) a': './experience',
         '#navLinks li:nth-child(2) a': './skills',
@@ -137,7 +137,7 @@
         '#navLinks li:nth-child(6) a': 'contact',
         '.hero-meta .tag:nth-child(1)': '📍 New York, NY',
         '.hero-meta .tag:nth-child(2)': '☁️ 10+ years in cloud tech',
-        '.hero-meta .tag:nth-child(3)': '🌎 LATAM-focused',
+        '.hero-meta .tag:nth-child(3)': '🌎 LATCAN-focused',
         '#skills .skill-group:nth-of-type(1) .skill-group-title': '☁️ Cloud Platforms',
         '#skills .skill-group:nth-of-type(2) .skill-group-title': '🛠 DevOps & IaC',
         '#skills .skill-group:nth-of-type(3) .skill-group-title': '💻 Languages & Scripting',
@@ -176,7 +176,7 @@
       html: {
         '.terminal-line:nth-of-type(1)': '<span class="prompt">$</span> whoami',
         '.terminal-line.terminal-role': '<span class="prompt">$</span> cat role.txt',
-        '.terminal-output': 'Senior Technical Partner Manager <span class="cyan">@GitHub</span> · LATAM',
+        '.terminal-output': 'Senior Technical Partner Manager <span class="cyan">@GitHub</span> · LATCAN',
         '#experience .section-title': '<span class="prompt">&gt;</span> experience.log',
         '#skills .section-title': '<span class="prompt">&gt;</span> skills --list',
         '#certs .section-title': '<span class="prompt">&gt;</span> ls ./certifications',
@@ -184,8 +184,8 @@
         '#volunteering .section-title': '<span class="prompt">&gt;</span> ./community --verbose',
         '#contact .section-title': '<span class="prompt">&gt;</span> contact --open',
         '#certs .section-sub': 'For active badge verification, visit my <a href="https://www.credly.com/users/stewart-viera" target="_blank" rel="noopener" class="link-accent">Credly profile →</a>',
-        '#experience .timeline-item:nth-of-type(1) .card-role': 'Senior Technical Partner Manager <span class="region-tag">· LATAM</span>',
-        '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(1)': 'Driving technical partner success across the LATAM region for GitHub\'s enterprise product portfolio.',
+        '#experience .timeline-item:nth-of-type(1) .card-role': 'Senior Technical Partner Manager <span class="region-tag">· LATCAN</span>',
+        '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(1)': 'Driving technical partner success across the LATCAN region for GitHub\'s enterprise product portfolio.',
         '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(2)': 'Enabling strategic partners to deliver GitHub solutions — Copilot, GHAS, Actions — to enterprise customers.',
         '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(3)': 'Building deep technical relationships with C-level stakeholders and partner engineering teams.',
         '#experience .timeline-item:nth-of-type(2) .card-bullets li:nth-child(1)': 'Guided enterprise customers through cloud-native transformation using GKE, Cloud Run, Anthos, and Vertex AI.',
@@ -210,7 +210,7 @@
         { selector: '#langToggle', name: 'aria-label', value: 'Switch language to Spanish' }
       ],
       typewriter: [
-        'run partner_success.sh --region LATAM',
+        'run partner_success.sh --region LATCAN',
         'echo "10+ years in cloud tech"',
         'git push origin future',
         'ssh cloud_architect@github.com',
@@ -221,7 +221,7 @@
     },
     es: {
       title: 'Stewart Viera // Gerente Técnico Senior de Partners',
-      description: 'Stewart Viera — Gerente Técnico Senior de Partners en GitHub, LATAM. Más de 10 años en tecnología cloud en GitHub, Google, Microsoft y AWS.',
+      description: 'Stewart Viera — Gerente Técnico Senior de Partners en GitHub, LATCAN. Más de 10 años en tecnología cloud en GitHub, Google, Microsoft y AWS.',
       text: {
         '#navLinks li:nth-child(1) a': './experiencia',
         '#navLinks li:nth-child(2) a': './habilidades',
@@ -231,7 +231,7 @@
         '#navLinks li:nth-child(6) a': 'contacto',
         '.hero-meta .tag:nth-child(1)': '📍 Nueva York, NY',
         '.hero-meta .tag:nth-child(2)': '☁️ Más de 10 años en tecnología cloud',
-        '.hero-meta .tag:nth-child(3)': '🌎 Enfoque LATAM',
+        '.hero-meta .tag:nth-child(3)': '🌎 Enfoque LATCAN',
         '#skills .skill-group:nth-of-type(1) .skill-group-title': '☁️ Plataformas Cloud',
         '#skills .skill-group:nth-of-type(2) .skill-group-title': '🛠 DevOps e IaC',
         '#skills .skill-group:nth-of-type(3) .skill-group-title': '💻 Lenguajes y scripting',
@@ -270,7 +270,7 @@
       html: {
         '.terminal-line:nth-of-type(1)': '<span class="prompt">$</span> quien_soy',
         '.terminal-line.terminal-role': '<span class="prompt">$</span> cat rol.txt',
-        '.terminal-output': 'Gerente Técnico Senior de Partners <span class="cyan">@GitHub</span> · LATAM',
+        '.terminal-output': 'Gerente Técnico Senior de Partners <span class="cyan">@GitHub</span> · LATCAN',
         '#experience .section-title': '<span class="prompt">&gt;</span> experiencia.log',
         '#skills .section-title': '<span class="prompt">&gt;</span> habilidades --lista',
         '#certs .section-title': '<span class="prompt">&gt;</span> ls ./certificaciones',
@@ -278,8 +278,8 @@
         '#volunteering .section-title': '<span class="prompt">&gt;</span> ./comunidad --detallado',
         '#contact .section-title': '<span class="prompt">&gt;</span> contacto --abrir',
         '#certs .section-sub': 'Para verificar credenciales activas, visita mi <a href="https://www.credly.com/users/stewart-viera" target="_blank" rel="noopener" class="link-accent">perfil de Credly →</a>',
-        '#experience .timeline-item:nth-of-type(1) .card-role': 'Gerente Técnico Senior de Partners <span class="region-tag">· LATAM</span>',
-        '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(1)': 'Impulsando el éxito técnico de partners en la región LATAM para el portafolio enterprise de GitHub.',
+        '#experience .timeline-item:nth-of-type(1) .card-role': 'Gerente Técnico Senior de Partners <span class="region-tag">· LATCAN</span>',
+        '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(1)': 'Impulsando el éxito técnico de partners en la región LATCAN para el portafolio enterprise de GitHub.',
         '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(2)': 'Habilitando partners estratégicos para entregar soluciones de GitHub — Copilot, GHAS y Actions — a clientes enterprise.',
         '#experience .timeline-item:nth-of-type(1) .card-bullets li:nth-child(3)': 'Construyendo relaciones técnicas profundas con stakeholders C-level y equipos de ingeniería de partners.',
         '#experience .timeline-item:nth-of-type(2) .card-bullets li:nth-child(1)': 'Guié a clientes enterprise en su transformación cloud-native con GKE, Cloud Run, Anthos y Vertex AI.',
@@ -304,7 +304,7 @@
         { selector: '#langToggle', name: 'aria-label', value: 'Cambiar idioma a inglés' }
       ],
       typewriter: [
-        'ejecutar partner_success.sh --region LATAM',
+        'ejecutar partner_success.sh --region LATCAN',
         'echo "10+ años en tecnología cloud"',
         'git push origin futuro',
         'ssh arquitecto_cloud@github.com',
