@@ -171,7 +171,7 @@
         '#volunteering .volunteer-card:nth-of-type(4) p': 'Organized and participated in Google\'s NYC Pride events, championing LGBTQIA+ visibility in the workplace.',
         '#contact .section-title': '> contact --open',
         '#contact .contact-card:nth-of-type(1) .contact-label': 'Email',
-        '#footer .footer-output': 'Built with ❤️ & late-night vibes by Stewart Viera'
+        '#footer .footer-output': 'Always learning 🧠 · exploring new ideas 🧭 · meeting new people 🤝'
       },
       html: {
         '.terminal-line:nth-of-type(1)': '<span class="prompt">$</span> whoami',
@@ -226,7 +226,7 @@
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(5)': 'Presented cloud and DevOps practices to global technical audiences through conferences, workshops, and knowledge-transfer sessions.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(6)': 'Produced reusable webcasts, implementation guides, presentations, and technical documentation that scaled knowledge across teams.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(7)': 'Helped develop new consulting offerings focused on Azure adoption, container platforms, infrastructure automation, and DevOps transformation.',
-        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Built with ❤️ &amp; late-night vibes by Stewart Viera"'
+        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Always learning 🧠 · exploring new ideas 🧭 · meeting new people 🤝"'
       },
       attrs: [
         { selector: '#navToggle', name: 'aria-label', value: 'Toggle menu' },
@@ -288,7 +288,7 @@
         '#volunteering .volunteer-card:nth-of-type(4) p': 'Organicé y participé en eventos de Pride NYC en Google, impulsando la visibilidad LGBTQIA+ en el trabajo.',
         '#contact .section-title': '> contacto --abrir',
         '#contact .contact-card:nth-of-type(1) .contact-label': 'Correo',
-        '#footer .footer-output': 'Hecho con ❤️ y vibes nocturnos por Stewart Viera'
+        '#footer .footer-output': 'Siempre aprendiendo 🧠 · explorando nuevas ideas 🧭 · conociendo gente nueva 🤝'
       },
       html: {
         '.terminal-line:nth-of-type(1)': '<span class="prompt">$</span> quien_soy',
@@ -343,7 +343,7 @@
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(5)': 'Presenté prácticas de cloud y DevOps ante audiencias técnicas globales en conferencias, workshops y sesiones de transferencia de conocimiento.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(6)': 'Produje webcasts, guías de implementación, presentaciones y documentación técnica reutilizables que escalaron el conocimiento entre equipos.',
         '#experience .timeline-item:nth-of-type(5) .card-bullets li:nth-child(7)': 'Ayudé a desarrollar nuevas ofertas de consultoría enfocadas en adopción de Azure, plataformas de contenedores, automatización de infraestructura y transformación DevOps.',
-        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Hecho con ❤️ &amp; vibes nocturnos por Stewart Viera"'
+        '#footer .footer-prompt': '<span class="prompt">$</span> echo "Siempre aprendiendo 🧠 · explorando nuevas ideas 🧭 · conociendo gente nueva 🤝"'
       },
       attrs: [
         { selector: '#navToggle', name: 'aria-label', value: 'Abrir menú' },
